@@ -1,5 +1,5 @@
 /*
-Datalog Program for a phone number:
+Control input for a phone number:
     How to implement in HTML:
         <input type="tel" pattern="['('][0-9]{3}[')'][' '][0-9]{3}['\-'][0-9]{4}" oninput="CheckPhoneInput(event)" required>
         <script src="path/phone-input.js"></script>
