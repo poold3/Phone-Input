@@ -1,5 +1,5 @@
 # Phone-Input
-Custom Input Control for a phone number.
+Custom input control for a phone number in HTML forms.
 Uses a scanner to acquire tokens on input.
 Runs a parser to validate token order.
 Turns background red on incorrect token or syntax.
