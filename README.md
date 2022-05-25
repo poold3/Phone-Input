@@ -5,8 +5,8 @@ Runs a parser to validate token order.
 Turns background red on incorrect token or syntax.
 
 How to implement in HTML:
-  < input type="tel" pattern="['('][0-9]{3}[')'][' '][0-9]{3}['\-'][0-9]{4}" oninput="CheckPhoneInput(event)" required>
-  <script src="path/phone-input.js"></script>
+  `< input type="tel" pattern="['('][0-9]{3}[')'][' '][0-9]{3}['\-'][0-9]{4}" oninput="CheckPhoneInput(event)" required>
+  <script src="path/phone-input.js"></script>`
 
 Regex accepted: ['('][0-9]{3}[')'][' '][0-9]{3}['\-'][0-9]{4} -> (123) 456-7890
 
